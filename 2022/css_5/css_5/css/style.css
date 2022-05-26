@@ -1,0 +1,81 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding: 50px 30px 30px 30px;
+
+	/*background: url('../img/bg.jpg') center no-repeat fixed;*/
+}
+
+.list {
+	margin: 0 0 50px 0;
+}
+
+.list li{
+	font-size: 24px;
+	margin: 0 0 15px 0;
+	background: url('../img/icons/li.svg') left 5px no-repeat;
+	/*background: url('../img/icons/li.svg')left top no-repeat;*/
+	padding: 0 0 0 30px;
+}
+
+.block {
+
+	background: url('../img/avatar_3.jpg') 0 0/ auto 100% no-repeat;
+
+	/*background: url('../img/avatar_3.jpg') 0 0/100% no-repeat;*/
+
+	/*background: url('../img/bg_repeat.jpg');*/
+
+/*	background: url('../img/bg.jpg') 50px 100px no-repeat;*/
+
+	/*background-position: 50px 10px;*/
+
+/* Old browsers */
+/*background: rgb(236,232,157);*/
+/* FF3.6-15 */
+/*background: -moz-linear-gradient(top, rgba(236,232,157,1) 0%, rgba(94,83,115,1) 50%, rgba(24,181,164,1) 100%);*/
+/* Chrome10-25,Safari5.1-6 */
+/*background: -webkit-linear-gradient(top, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);*/
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*background: linear-gradient(to bottom, rgba(236,232,157,1) 0%,rgba(94,83,115,1) 50%,rgba(24,181,164,1) 100%);*/
+
+	/*background: #FFFFFF;*/
+
+	height: 300px;
+	border-radius: 15px;
+	box-shadow:  0 0 15px #000000;
+}

@@ -1,0 +1,51 @@
+.about {
+
+	// .about__body
+
+	&__body {
+	}
+
+	// .about__header
+
+	&__header {
+	}
+
+	// .about__title
+
+	&__title {
+	}
+
+	// .about__text
+
+	&__text {
+	}
+
+	// .about__row
+
+	&__row {
+	}
+
+	// .about__column
+
+	&__column {
+	}
+}
+.title {
+}
+.item-about {
+
+	// .item-about__icon
+
+	&__icon {
+	}
+
+	// .item-about__title
+
+	&__title {
+	}
+
+	// .item-about__text
+
+	&__text {
+	}
+}

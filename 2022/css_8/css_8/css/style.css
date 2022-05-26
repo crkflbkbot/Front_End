@@ -1,0 +1,90 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box; /*Алгоритм расчета ширины и высоты*/
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}/*Убирает x только в IE в поле ввода*/
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}/*Убирает лишние отступы и пробелы только в Mozilla в поле ввода*/
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body{
+	padding: 30px;
+}
+
+.block {
+	border: 5px solid red;
+	max-width: 800px;
+	margin: 0 auto;/*Заставляет выстроиться по центру*/
+	height: 1500px;
+	position: relative;
+}
+
+.block div{
+	line-height: 50px;
+	font-size 18px;
+	font-weight: 700px;
+	text-align: center;
+}
+.block_1 {
+	background-color: #E4F806;
+}
+.block_2 {
+	background-color: #583A3A;
+	color: #FFFFFF;
+	/*position: static;*/
+	/*position: fixed;*/
+	position: sticky;/*Женя не применяет, т.к. не всеми браузерами поддерживается*/
+	top: 0;
+
+
+/*	position: relative;
+	left: 50px;
+	top: 60px;
+	right: 0;
+	bottom: 0;
+	z-index: 0;/*Положение по оси Z*/
+	/*z-index: 2;*/
+
+}
+.block_3 {
+	background-color: #1BC1C3;
+/*	position: relative;
+	z-index: 2;*/
+/*	position: absolute;/*Абсолютное позиционирование*/
+/*	width: 100%;
+	top: 100px;
+	left: 30px;*/
+}
+
+.block_4 {
+	background-color: #E4F806;
+	position: sticky;/*Женя не применяет, т.к. не всеми браузерами поддерживается*/
+	top: 0;
+}
+
