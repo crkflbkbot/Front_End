@@ -1,0 +1,14 @@
+.icon-img img {
+  width: 300px;
+  /* display: block; */
+  /* display: inline-block; */
+  display: inline;
+}
+h1 {
+  /* font-size: 48px; */
+}
+.coral {
+  color: coral;
+  font-size: 24px;
+  text-transform: uppercase;
+}

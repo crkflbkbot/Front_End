@@ -1,0 +1,63 @@
+.flex-block {
+  max-width: 1000px;
+  height: 350px;
+  border: 1px solid #c5c5c5;
+  margin:  0 -15px;
+
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+
+ /*  Очень редко используется!!! */
+  align-content: stretch; /*  Выравнивание элементов вдоль поперечной оси */
+  align-content: flex-start;
+  /* align-content: flex-end; */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+}
+.flex-item {
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #fff;
+  width: 150px;
+  /* height: 80px; */
+  background-color: coral;
+  border: 1px solid #fff;
+}
+.flex-item__1 {
+  /* order: 5; */
+  /* flex-grow: 1; */
+  align-self: flex-start;
+}
+.flex-item__2 {
+  /* order: 4; */
+  /* flex-grow: 3; Определяет возможность элемента увеличиваться в размере, при необходимости заполняя весь flex-контейнер. 0 запрещено. 1 разрешено. 3 приоритет (1, 2, 3)
+  flex-shrink: 0; Определяет возможность элемента уменьшаться в размере, при необходимости заполняя весь flex-контейер. 0 запрещено. 1 разрешено
+  flex: 1 0 auto; */
+  flex-grow: 3;
+  align-self: flex-end;
+}
+.flex-item__3 {
+  /* order: 6; */
+  flex-basis: 150px; /* Главнее width!!!. Определяет размер элемента по умолчанию, до распределения оставшегося пространства. Значения могут быть в процентах пикселях и т.д. */
+  align-self: center;
+}
+.flex-item__4 {
+  align-self: stretch;
+}
