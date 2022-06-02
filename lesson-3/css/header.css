@@ -1,7 +1,8 @@
 .header {
   width: 100%;
-  background-color: cornflowerblue;
-  padding: 10px 0;
+  background-color: #000000;
+  ;
+  padding: 20px 0;
 }
 .header-wrap {
   display: flex;
@@ -10,14 +11,14 @@
 }
 .logo a {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
   text-transform: uppercase;
 }
 .navigation {
 }
 .navigation-list {
-  width: 350px;
+  width: 489px;
   display: flex;
   justify-content: space-between;
 }
@@ -25,7 +26,8 @@
   /* margin-left: 20px; */
 }
 .navigation-list-item a {
-  font-size: 20px;
-  font-weight: 500;
-  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  color: #FFFFFFB2;
+  ;
 }
