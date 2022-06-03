@@ -1,7 +1,7 @@
 @import url("../css/cdn.css");
 @import url("../css/header.css");
 @import url("../css/main.css");
-@import url("../css/portfolio.css");
+@import url("../css/process.css");
 @import url("../css/footer.css");
 
 * {
@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 html {
-  font-family: "Montserrat", "Poppins", sans-serif;
+  font-family: "Open Sans", "Raleway", sans-serif;
 }
 section {
   padding: 80px 0;
@@ -22,10 +22,10 @@ section {
   margin: auto;
   padding: 0 15px;
 }
-.title {
+/* .title {
   font-size: 32px;
   font-weight: 500;
   color: cornflowerblue;
   text-align: center;
   margin-bottom: 40px;
-}
+} */

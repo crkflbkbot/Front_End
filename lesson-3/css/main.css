@@ -1,9 +1,10 @@
 .main {
-  background-color: beige;
+  /* background-color: beige; */
 }
 .main-title {
   font-size: 36px;
   font-weight: 400;
+  font-family: "Raleway";
   color: #212121;
   text-align: center;
   margin-bottom: 34px;
@@ -26,5 +27,7 @@
 .main-text p {
   text-align: center;
   font-size: 14px;
+  font-weight: 400;
+  color: #86878B;
   margin-bottom: 34px;
 }
