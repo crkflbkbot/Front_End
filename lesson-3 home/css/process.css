@@ -3,12 +3,14 @@
 .process-wrap {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 -15px;
   /* margin-bottom: 30px; */
 }
 .process-card {
   width: 350px;
+  margin: 0 15px;
   /* border: 1px solid coral; */
-  border-radius: 20px;
+  /* border-radius: 20px; */
   /* padding: 5px; */
 }
 .process-card-img {
@@ -22,9 +24,9 @@
   justify-content: center;
   align-items: center;
 }
-.process-card-img img {
+/* .process-card-img img {
   width: 35%;
-}
+} */
 .process-card-title {
   text-align: center;
   font-size: 20px;
