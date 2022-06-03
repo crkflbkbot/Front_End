@@ -14,8 +14,8 @@
   /* display: flex; */
   /* justify-content: center; */
   /* text-align: center; */
-  border-bottom: 1px solid #E72424;
-  padding: 2px;
+  border-bottom: 2px solid #E72424;
+  /* padding: 2px; */
   margin: auto;
   margin-bottom: 34px;
 }
