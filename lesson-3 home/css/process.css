@@ -3,7 +3,7 @@
 .process-wrap {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .process-card {
   width: 350px;
