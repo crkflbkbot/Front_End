@@ -1,7 +1,6 @@
 @import url("../css/cdn.css");
 @import url("../css/header.css");
-@import url("../css/main.css");
-@import url("../css/process.css");
+@import url("../css/awesome.css");
 @import url("../css/pricing.css");
 @import url("../css/footer.css");
 
@@ -23,10 +22,34 @@ section {
   margin: auto;
   padding: 0 15px;
 }
-/* .title {
-  font-size: 32px;
-  font-weight: 500;
-  color: cornflowerblue;
+.title {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Raleway";
+  color: #212121;
   text-align: center;
-  margin-bottom: 40px;
-} */
+  margin-bottom: 34px;
+}
+.line {
+  width: 64px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* text-align: center; */
+  border-bottom: 2px solid #E72424;
+  /* padding: 2px; */
+  margin: auto;
+  margin-bottom: 34px;
+}
+.sub-text {
+  /* width: 500px; */
+  /* display: flex; */
+  /* text-align: center; */
+}
+.sub-text p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  /* font-family: "Open Sans"; */
+  color: #86878B;
+  margin-bottom: 34px;
+}

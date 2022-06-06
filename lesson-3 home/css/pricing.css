@@ -3,13 +3,15 @@
 }
 .pricing-wrap {
     display: flex;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 0 -15px;
 }
 .pricing-list {
     margin: 0 15px;
     width: 340px;
+/*     display: block;
+    flex-direction: column; */
 }
 .pricing-tarif {
     font-family: 'Open Sans';
